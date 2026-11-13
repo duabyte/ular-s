@@ -1,0 +1,53 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ min-height: 100vh;
+ background-color: hwb(0 43% 57%);
+ color: hwb(0 94% 4%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 8px;
+}
+
+.grid {
+ background-color: hwb(120 25% 36%);
+ min-height: 300px;
+ min-width: 400px;
+ border: 2px solid black;
+ padding: 2px;
+ display: flex;
+ flex: wrap;
+}
+
+.grid div {
+ width: 40px;
+ height: 30px;
+ border: 1px solid black;
+}
+
+.snake {
+ background-color: hwb(240 12% 53%);
+}
+
+.apple {
+ background-color: hwb(0 14% 43%);
+ border-radius: 25px;
+}
+
+.popUpmenu {
+ width: 100px;
+ height: 100px;
+ background-color: hwb(189 18% 41%);
+ position: fixed;
+ top: 100px;
+ left: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
